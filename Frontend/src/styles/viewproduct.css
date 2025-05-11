@@ -1,0 +1,119 @@
+
+.view--div{
+    padding:30px; 
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 20px;
+    overflow: hidden;
+  }
+  
+  .view--img{
+    max-width: 850px;
+    height: 850px;
+    flex-basis: 10px;
+    flex-shrink: 1;
+  }
+  
+  @media (max-width: 900px) {
+    .view--img {
+     width:100%;
+    }
+    .view--div{
+    flex-direction: column;
+    }
+  }
+  
+  
+  .view--info--span{
+    display:flex;
+    flex-direction:column;
+    align-items: flex-start;
+    justify-content: center;
+  }
+  
+  .view--name{
+    font-size: 50px;
+    color: #888;
+    font-weight: bold;
+  }
+  .view--descript{
+    font-size: 20px;
+    color: #000000;
+  }
+  .view--price{
+    font-size: 30px;
+    color: #888;
+    font-weight: bold;
+    margin-bottom: 60px;
+  }
+  .view--h6{
+    font-size: 20px;
+    color: black;
+    font-weight: bold;
+  }
+  
+  .radio-button {
+    /* pointer-events: none; */
+    opacity: 1;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+  }
+  
+  .view-button-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    gap:20px;
+  }
+  
+  .size--button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 140px;
+    height: 50px;
+    border: 1px solid #000000;
+    background-color: transparent;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bold;
+   }
+  
+  .size--button:hover
+  {
+    color: white;
+    background-color: #000000;
+    border-color: #fff;
+  }
+  
+  .view--button{
+    cursor: pointer;
+    width:83%;
+    height:50px;
+    margin-top:60px;
+    margin-left: 10px;
+    border-radius: 25px;
+    background-color: transparent;
+    font-size: 18px;
+    font-weight: bold;
+    display: flex;
+    /* align-self: center;
+    justify-self: center; */
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .view--button:hover{
+    color: white;
+    background-color:#007DB5;
+    border-color: #fff;
+  }
+  
+  .shopping--bag{
+    width:20px;
+  }
+  

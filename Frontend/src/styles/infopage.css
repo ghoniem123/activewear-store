@@ -1,0 +1,41 @@
+.info--div{
+    margin: 10px;
+}
+
+
+.info--form,.info--button{
+    margin:20px;
+}
+
+.info--text{
+    margin: 10px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.info--input{
+    text-indent: 5px;
+    width:300px;
+}
+
+.info--input, .info--input--country, .info--input--phone, .info--input--code{
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.info--button{
+    width:180px;
+    height: 40px;
+    background-color: transparent;
+    border-radius: 25px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.info--button:hover{
+  color: white;
+  background-color:#007DB5;
+  border-color: #fff;
+}

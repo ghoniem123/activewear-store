@@ -1,0 +1,10 @@
+.product--page--div{
+    padding:30px; 
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap:20px;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    align-items: center;
+  }

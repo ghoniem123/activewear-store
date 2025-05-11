@@ -1,0 +1,117 @@
+
+.cartitem--div{
+    margin:7px;
+    margin-top: 15px;
+    display:flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content: space-between;
+    padding:10px;
+    height:120px;
+    border-radius: 20px;
+    box-shadow : 0px 10px 20px 0px #383838
+
+  }
+  
+  .cartitem--image{
+    height:100%;
+  }
+  
+  .cartitem--span--1{
+    height:80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding:10px;
+  }
+  
+  .cartitem--name{
+    margin:0px;
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 0.9;
+  }
+  .cartitem--size{
+    margin:0px;
+  }
+
+  .cartitem--price{
+    margin:0px;
+    font-size: 18px;
+    color: #888;
+    font-weight: bold;
+  }
+
+  /* .cartitem--span--2{
+    display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: flex-end;
+  } */
+
+  .cartitem--total--price{
+    margin:0px;
+    padding:0px;
+    font-size: 15px;
+    color: #888;
+    font-weight: bold;
+  }
+
+  .total--price--title{
+    margin:0px;
+    font-size: 18px;
+    color: #888;
+    font-weight: bold;
+  }
+
+  .quantity--display{
+    width:30px;
+    background-color: transparent;
+    border: none;
+  }
+
+
+  .close--img, .plus--img, .minus--img{
+    width:100%;
+    height:100%;
+  }
+
+  /* .cartitem--span--2{
+    display:flex;
+    flex-direction:column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    height:100%;
+  } */
+  .cartitem--remove--button,.quantity--button{
+    width:30px;
+    height:23px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+  }
+
+  .cartitem--remove--button{
+    align-self: flex-end;
+
+  }
+
+  .cartitem--quantity--span{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .cartitem--span--3{
+    align-self: flex-start;
+    gap:12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  
