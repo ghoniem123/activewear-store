@@ -1,7 +1,7 @@
 
 # 🛍️ ActiveWear Frontend
 
-This is the frontend for the **ActiveWear** E-Commerce platform. It is built using **React** and **Vite**, and it communicates with the backend API to display product listings, support filtering, manage carts, and handle checkout flows.
+This is the frontend for the **ActiveWear** E-Commerce platform. It is built using **React** and **Vite**, and it communicates with the backend API to display product listings, support filtering, manage carts, order tracking and handle checkout flows.
 
 ---
 
@@ -65,7 +65,7 @@ Ensure the backend (ActiveWear API) is running and accessible at the URL defined
 - 🛍️ View product listings
 - 🎯 Filter products by category, name, or custom criteria
 - 🛒 Add and remove items from the cart
-- 🧾 Checkout flow 
+- 🧾 Checkout flow and order tracking
 - 🔗 Dynamic backend integration via environment variables
 
 ---
