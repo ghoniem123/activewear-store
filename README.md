@@ -1,5 +1,5 @@
 
-# 🧘‍♀️ ActiveWear E-Commerce Platform
+# 🛍️ ActiveWear E-Commerce Platform
 
 **ActiveWear** is a full-stack e-commerce platform for activewear products, built with a modern JavaScript stack (MERN Stack). It features dynamic product listings, filtering, cart management, and checkout capabilities. This project includes:
 
