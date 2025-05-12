@@ -125,7 +125,7 @@ node --env-file=.env DataInsertions/productsData.js
 - 🛍️ Browse product listings
 - 🎯 Filter products by category or keyword
 - 🛒 Manage shopping cart
-- 🧾 Checkout workflow
+- 🧾 Checkout workflow and order tracking
 - 💬 Clean UI with dynamic backend integration
 
 ---
